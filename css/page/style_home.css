@@ -1,0 +1,14 @@
+.row {
+  padding: 45px 35px;
+  background: #6A615CA4;
+  border-radius: 40px;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+.row>img {
+  margin-right: 20px;
+  border: 2px #fff solid;
+  height: 250px;
+  width: 340px;
+  float: left;
+}
