@@ -27,19 +27,16 @@ body {
 }
 
 /*menu*/
-.circle {
-  border-radius: 50%;
-  background: #666666;
+header>.container>img {
   position: absolute;
   top: 2px;
   left: 20px;
   width: 69px;
   height: 69px;
+  transition: .5s;
 }
-.circle img {
-  width: 50px;
-  height: 50px;
-  transition: 0.5s;
+header>.container>img:hover {
+transform: rotate(360deg);
 }
 header {
   font-size: 22px;
