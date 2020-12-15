@@ -11,7 +11,7 @@ body {
   position: relative;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1024px;
+  max-width: 752px;
   margin: 0 auto;
 }
 .container:after, .row:after {
@@ -21,7 +21,7 @@ body {
 }
 .main .container {
   border-radius: 0 0 40px 40px;
-  padding: 70px 20px 50px 50px;
+  padding: 55px 35px 50px 35px;
   background:  #D2CAC3B1;
   margin-bottom: 20px;
 }
@@ -39,7 +39,7 @@ header>.container>img:hover {
 transform: rotate(360deg);
 }
 header {
-  font-size: 22px;
+  font-size: 24px;
   height: 72px;
   position: fixed;
   top: 10px;
@@ -72,9 +72,10 @@ nav li {
 nav a:hover {
   color: #FFF;
   text-shadow: black 0 0 2px; 
-  font-size: 27px;
+  font-size: 29px;
 }
-.basket {
+
+/*.basket {
   height: 69px;
   position: absolute;
   top: 7px;
@@ -85,6 +86,7 @@ nav a:hover {
   width: 60px;
   transition: 0.5s;
 }
+*/
 /*menu end*/
 
 /*content*/
@@ -149,23 +151,31 @@ h1 { /*Найбільші заголовкі як імя*/
   color: #00b8ff;
 }
 h2 { /*Заголовкі блоків*/
-  font-size: 42px;
-  color: #00b8ff;
-  margin-top: 0px;
+  font-size: 22px;
+  color: #262421;
+  margin: 0 0 10px 0;
 }
 h3 { /*Підзаголовкі*/
   font-size: 18px;
   color: #00b8ff;
   margin: 0px;
 }
-h4 { /*Текст в абзацах*/
-  font-size: 19px;
+h4 { /*Ціна*/
+  font-size: 36px;
   color: #FFF;
   text-indent: 20px;
+  margin: 0px;
+  font-weight: normal;
+}
+h5 { /*Ціна*/
+  font-size: 24px;
+  color: #262421;
+  margin: 0px 0 10px 0;
+  font-weight: normal;
 }
 h6 { /*Маленькі підписи*/
-  font-size: 13px;
-  color: #e6e6e6;
+  font-size: 11px;
+  color: #3A3533;
   text-indent: 5px;
   margin: 0px 0px 10px 0px; 
 }

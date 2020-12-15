@@ -1,15 +1,15 @@
 .slider__item {
   overflow: hidden;
   flex: 0 0 33.333333%;
-  max-width: 250px;
-  height: 250px;
-  width: 250px;
+  max-width: 150px;
+  height: 150px;
+  width: 150px;
   margin-right: 85px;
   border-radius: 20px;
 }
 .slider__item img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 
